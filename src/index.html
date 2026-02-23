@@ -1,13 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-    <script src="app.js"></script>
-  </body>
+<head>
+  <title>Dice Roller - Made with 💖</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+  <h1>Dice Roller</h1>
+
+  <div id="dice">⬜</div>
+  <div id="result">Press Roll to start!</div>
+  <div id="score-board">Rolls: 0 &nbsp;|&nbsp; Total: 0 &nbsp;|&nbsp; Best: -</div>
+
+  <button onclick="rollDice()">Roll Dice</button>
+  <button id="reset-btn" onclick="resetGame()">Reset</button>
+
+  
+
+</body>
 </html>
